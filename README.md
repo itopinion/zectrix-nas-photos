@@ -24,7 +24,7 @@
 1. **Python 3 环境**：建议在群晖套件中心安装官方 Python 3 套件。
 2. **安装依赖库**：在终端执行以下命令（注意替换为您 NAS 实际的 Python 版本，例如 `python3.14`）：
    ```bash
-   python3 -m pip install Pillow requests
+   python3.14 -m pip install Pillow requests
    ```
 3. **获取 API 与字体**：
    * 登录 [极趣云平台](https://cloud.zectrix.com) 获取设备的 **MAC 地址** 和 **API KEY**。
